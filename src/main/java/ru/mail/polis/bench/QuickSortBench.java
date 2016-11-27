@@ -19,7 +19,7 @@ public class QuickSortBench {
 
     @Setup(value = Level.Invocation)
     public void setUpInvocation() {
-        a = Helper.gen(1000);
+        a = Helper.genSortedRight(100000);
     }
 
     @Benchmark

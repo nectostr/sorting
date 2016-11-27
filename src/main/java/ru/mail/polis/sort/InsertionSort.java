@@ -4,9 +4,6 @@ import java.io.*;
 import java.util.StringTokenizer;
 
 public class InsertionSort {
-
-
-
     public static int[] sort(int[] arr) {
         int i, j, newValue;
         int n = arr.length;

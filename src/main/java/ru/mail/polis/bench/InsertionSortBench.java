@@ -22,7 +22,7 @@ public class InsertionSortBench {
 
     @Setup(value = Level.Invocation)
     public void setUpInvocation() {
-        a = Helper.genSortedRight(1000);
+        a = Helper.genSortedBack(100000);
     }
 
     @Benchmark

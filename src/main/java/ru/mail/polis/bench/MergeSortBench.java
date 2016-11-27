@@ -22,7 +22,7 @@ public class MergeSortBench {
 
     @Setup(value = Level.Invocation)
     public void setUpInvocation() {
-        a = Helper.gen(1000);
+        a = Helper.gen(100000);
     }
 
     @Benchmark
